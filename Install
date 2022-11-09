@@ -10,3 +10,16 @@ $python3 --version
 Python 3.8.3
 $python3.8 -m pip install pip
 $ pip3.8 install jupyterlab
+$pip  # lists pip cmdlets
+$pip search packagename
+$pip install packagename -y
+$pip uninstall packagename -y
+$pip list # lists all the installed packages
+$pip list -o #lists outdated packages
+$pip install -U packagename #upgrades the outdated packages
+$pip freeze # lists the current requiremnts/dependencies/packages used by your python environment.
+$pip3 freeze > req.txt #making note of required packages details
+you can use req.txt on new machine or environment to recreate the python dev environments with installing req.txt dependencies
+#installing the dependencies from req.txt using the below command
+$pip3 install -r req.txt
+
